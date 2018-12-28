@@ -48,8 +48,8 @@
 - For Report file in Report/
 
 ### PUBLIC_FUNCTION
-- browser.py is configuration the browser driver
-- variables.py is public variables for used test (e.g input, browser)
+- is configuration the browser driver
+- is public variables for used test (e.g input, browser)
 
 ### Browser Driver
 - Create directory ../driver for dependency lib, or set path enviroment driver (e.g /usr/local/bin) http://jonathansoma.com/lede/foundations-2017/classes/more-scraping/selenium/
