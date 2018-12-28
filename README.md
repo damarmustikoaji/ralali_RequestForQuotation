@@ -23,7 +23,9 @@
 - You can see in directory driver/
 
 ### How to use
-optional
+
+- optional
+
 1. Download and Install git https://git-scm.com/downloads
 2. Create folder and then go to the folder
 3. Git init
@@ -31,7 +33,8 @@ optional
 4. or git clone https://github.com/damarmustikoaji/ralali_RequestForQuotation.git
 5. Install virtual enviroment (optional)
 
-required
+- required
+
 6. Install selenium
 7. Or install from requirements.txt : pip install -r requirements.txt
 8. Upgrade python to 3.7 or more than that
