@@ -71,7 +71,7 @@ class Detail_Request_Test(unittest.TestCase):
         "Fill Your Detail Request using valid data"
         self.startTime = time.time()
         #self.driver.get(Detail_Request_Test.var.SERVER)
-        Detail_Request_Test.request.FillDetail(self, self.driver, "Jasa", "Electronics", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "1", "Set")
+        Detail_Request_Test.request.FillDetail(self, self.driver, "Jasa", "Electronics", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "10", "Set")
         Detail_Request_Test.request.FindMe(self, self.driver)
         time.sleep(3)
         t = time.time() - self.startTime

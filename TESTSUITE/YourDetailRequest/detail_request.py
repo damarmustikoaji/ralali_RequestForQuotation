@@ -27,7 +27,7 @@ class Detail_Request(object):
         Detail_Request.func.fill_XPATH(self, driver, Detail_Request.obj.description, DESC)
         Detail_Request.func.clear_XPATH(self, driver, Detail_Request.obj.quantity)
         Detail_Request.func.fill_XPATH(self, driver, Detail_Request.obj.quantity, QUANTITY)
-        driver.find_element_by_xpath('//select[@name="unit"]/option[text()="'+UNIT+'"]').click()
+        #driver.find_element_by_xpath('//select[@name="unit"]/option[text()="'+UNIT+'"]').click()
 
     def FillInvalidItem(self, driver, ITEMSERVICE):
         driver  = driver
